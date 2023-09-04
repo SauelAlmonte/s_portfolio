@@ -3,15 +3,15 @@ import {Link} from "react-scroll"
 import { FaBars, FaTimes, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import Logo from "../assets/logo.png";
+import Logo from "../assets/logo2.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
     <div className="fixed w-full h-20 flex justify-between items-center p-6 text-gray-300 bg-white">
-      <div className="z-10">
-        <img className="w-20" src={Logo} alt="Logo" />
+      <div className="z-10 flex items-center">
+        <img className="w-32 " src={Logo} alt="Logo" />
       </div>
 
       {/* Menu Start */}
