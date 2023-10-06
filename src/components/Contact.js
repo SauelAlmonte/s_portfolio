@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen flex justify-center items-center p-4"
+      className="w-full h-screen flex justify-center items-center p-4 bg-[#4a6d88]"
     >
       <form
         method="POST"
@@ -12,30 +12,30 @@ const Contact = () => {
         className="flex flex-col max-w-[600px] w-full"
       >
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-800 text-gray-700">
+          <p className="text-4xl font-bold inline border-b-4 border-[#d5d9e0] text-[#d5d9e0]">
             Contact
           </p>
-          <p className="text-gray-600 pt-4">Submit an inquiry.</p>
+          <p className="text-[#d5d9e0] pt-4">Submit an inquiry.</p>
         </div>
         <input
-          className="bg-gray-100 p-2 placeholder-gray-800 outline-none"
+          className="bg-[#d5d9e0] p-2 placeholder-[#001e38] outline-none"
           type="text"
           placeholder="Name"
           name="name"
         />
         <input
-          className="my-4 p-2 bg-gray-100  placeholder-gray-800 outline-none"
+          className="my-4 p-2 bg-[#d5d9e0]  placeholder-[#001e38] outline-none"
           type="email"
           placeholder="Email"
           name="email"
         />
         <textarea
-          className="bg-gray-100 placeholder-gray-800 p-2 outline-none"
+          className="bg-[#d5d9e0] placeholder-[#001e38] p-2 outline-none"
           name="message"
           rows="10"
           placeholder="Message"
         ></textarea>
-        <button className="text-gray-800 border-2 hover:text-gray-800 hover:font-semibold hover:bg-gray-300 hover:border-gray-300 px-4 py-3 my-8 mx-auto flex items-center rounded-lg">
+        <button className="text-[#001e38] font-semibold border-2 border-[#d5d9e0] bg-[#d5d9e0] hover:text-gray-800 hover:font-semibold hover:bg-gray-300 hover:border-gray-300 px-4 py-3 my-8 mx-auto flex items-center rounded-lg">
           Let's Collaborate
         </button>
       </form>
