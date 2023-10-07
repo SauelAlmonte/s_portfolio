@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
+// import { Link } from "react-router-dom";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { FaBars, FaTimes, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
@@ -68,8 +69,8 @@ const Home = ({ handleClick }) => {
             <FaXTwitter size={20} />
           </a>
           <a
-            className="p-2 rounded-full bg-[#136CC4] text-[#FFFFFF]"
-            href="/src/assets/sauel_almonte.pdf"
+            className="p-2 rounded-full bg-[#88d9d0] text-[#FFFFFF]"
+            href="/Resume"
             target="_blank"
             rel="noopener noreferrer"
           >
