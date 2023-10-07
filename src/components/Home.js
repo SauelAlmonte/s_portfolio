@@ -67,7 +67,12 @@ const Home = ({ handleClick }) => {
           >
             <FaXTwitter size={20} />
           </a>
-          <a className="p-2 rounded-full bg-[#136CC4] text-[#FFFFFF]" href="/">
+          <a
+            className="p-2 rounded-full bg-[#136CC4] text-[#FFFFFF]"
+            href="/src/assets/sauel_almonte.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <BsFillPersonLinesFill size={20} />
           </a>
         </div>
