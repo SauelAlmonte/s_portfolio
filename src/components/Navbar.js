@@ -11,7 +11,9 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-20 flex justify-between items-center p-6 text-[#d5d9e0] bg-[#001e38] shadow-md">
       <div className="z-10 flex items-center">
-        <h1 className="text-[#d5d9e0] text-3xl font-bold">S. Almonte</h1>
+        <h1 className="text-[#d5d9e0] text-3xl font-bold">
+          S. Almonte
+        </h1>
         {/* <img className="w-32 text-[#d5d9e0]" src={Logo} alt="Logo" /> */}
       </div>
 
@@ -76,11 +78,8 @@ const Navbar = () => {
       {/* Menu Ends */}
 
       {/* Burger */}
-      <div
-        onClick={handleClick}
-        className="md:hidden text-gray-800 text-lg z-10"
-      >
-        {!nav ? <FaBars /> : <FaTimes />}
+      <div onClick={handleClick} className="md:hidden text-lg z-10">
+        {!nav ? <FaBars /> : <FaTimes color="#010c1e" />}
       </div>
 
       {/* Mobile */}
