@@ -1,6 +1,10 @@
 import React from "react";
-import Working from "../assets/projects/workImg.jpeg";
-import realEstate from "../assets/projects/realestate.jpeg";
+import Tesla from "../assets/projects/tesla.png";
+import Acme from "../assets/projects/acmer.png";
+import Apple from "../assets/projects/apple.png";
+import Movie from "../assets/projects/movie-site.png";
+import NFlix from "../assets/projects/nflix.png";
+import Tik from "../assets/projects/tiktaktoe.png";
 
 const Work = () => {
   return (
@@ -18,7 +22,7 @@ const Work = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Grid Items */}
           <div
-            style={{ backgroundImage: `url(${Working})` }}
+            style={{ backgroundImage: `url(${Tesla})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div "
           >
             {/* Hover Effect */}
@@ -41,7 +45,7 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${realEstate})` }}
+            style={{ backgroundImage: `url(${Acme})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div "
           >
             {/* Hover Effect */}
@@ -64,7 +68,7 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${Working})` }}
+            style={{ backgroundImage: `url(${Apple})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div "
           >
             {/* Hover Effect */}
@@ -87,7 +91,7 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${realEstate})` }}
+            style={{ backgroundImage: `url(${Movie})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div "
           >
             {/* Hover Effect */}
@@ -110,7 +114,7 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${Working})` }}
+            style={{ backgroundImage: `url(${NFlix})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div "
           >
             {/* Hover Effect */}
@@ -133,7 +137,7 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${realEstate})` }}
+            style={{ backgroundImage: `url(${Tik})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div "
           >
             {/* Hover Effect */}

@@ -9,19 +9,19 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className="fixed w-full h-20 flex justify-between items-center p-6 text-[#d5d9e0] bg-[#001e38] shadow-md">
+    <div className="fixed w-full h-20 flex justify-between items-center p-6 text-[#010c1e] bg-[#F2F2F3] shadow-md">
       <div className="z-10 flex items-center">
-        <h1 className="text-[#d5d9e0] text-3xl font-bold">
+        {/* <h1 className="text-[#d5d9e0] text-3xl font-bold">
           S. Almonte
-        </h1>
-        {/* <img className="w-32 text-[#d5d9e0]" src={Logo} alt="Logo" /> */}
+        </h1> */}
+        <img className="w-32 text-[#010c1e]" src={Logo} alt="Logo" />
       </div>
 
       {/* Menu Start */}
       <ul className="hidden md:flex">
         <li>
           <Link
-            className="text-[#d5d9e0] font-semibold"
+            className="text-[#010c1e] font-semibold"
             activeClass="active"
             to="home"
             smooth={true}
@@ -32,7 +32,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            className="text-[#d5d9e0] font-semibold"
+            className="text-[#010c1e] font-semibold"
             activeClass="active"
             to="about"
             smooth={true}
@@ -43,7 +43,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            className="text-[#d5d9e0] font-semibold"
+            className="text-[#010c1e] font-semibold"
             activeClass="active"
             to="skills"
             smooth={true}
@@ -54,7 +54,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            className="text-[#d5d9e0] font-semibold"
+            className="text-[#010c1e] font-semibold"
             activeClass="active"
             to="work"
             smooth={true}
@@ -65,7 +65,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            className="text-[#d5d9e0] font-semibold"
+            className="text-[#010c1e] font-semibold"
             activeClass="active"
             to="contact"
             smooth={true}
@@ -78,8 +78,8 @@ const Navbar = () => {
       {/* Menu Ends */}
 
       {/* Burger */}
-      <div onClick={handleClick} className="md:hidden text-lg z-10">
-        {!nav ? <FaBars /> : <FaTimes color="#010c1e" />}
+      <div onClick={handleClick} className="md:hidden text-lg z-10 ">
+        {!nav ? <FaBars color="#010c1e" /> : <FaTimes color="#010c1e" />}
       </div>
 
       {/* Mobile */}
@@ -90,7 +90,7 @@ const Navbar = () => {
             : "absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center bg-gray-100"
         }
       >
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-4xl text-[#010c1e]">
           <Link
             onClick={handleClick}
             activeClass="active"
@@ -101,7 +101,7 @@ const Navbar = () => {
             Home
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-4xl text-[#010c1e]">
           <Link
             onClick={handleClick}
             activeClass="active"
@@ -112,7 +112,7 @@ const Navbar = () => {
             About
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-4xl text-[#010c1e]">
           <Link
             onClick={handleClick}
             activeClass="active"
@@ -123,7 +123,7 @@ const Navbar = () => {
             Skills
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-4xl text-[#010c1e]">
           <Link
             onClick={handleClick}
             activeClass="active"
@@ -134,7 +134,7 @@ const Navbar = () => {
             Work
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-4xl text-[#010c1e]">
           <Link
             onClick={handleClick}
             activeClass="active"

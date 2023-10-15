@@ -2,7 +2,13 @@ import React from "react";
 import { Link } from "react-scroll";
 // import { Link } from "react-router-dom";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import { FaBars, FaTimes, FaGithub, FaLinkedinIn } from "react-icons/fa";
+import {
+  FaBars,
+  FaTimes,
+  FaGithub,
+  FaLinkedinIn,
+  FaInstagram,
+} from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -69,12 +75,12 @@ const Home = ({ handleClick }) => {
             <FaXTwitter size={20} />
           </a>
           <a
-            className="p-2 rounded-full bg-[#88d9d0] text-[#FFFFFF]"
-            href="/Resume"
+            className="p-2 rounded-full bg-gradient-to-tr from-[#FFB42D] via-[#EF1EAA] to-[#243EDF]  text-[#FFFFFF]"
+            href="https://instagram.com/frombricks2algorithims?igshid=NGVhN2U2NjQ0Yg=="
             target="_blank"
             rel="noopener noreferrer"
           >
-            <BsFillPersonLinesFill size={20} />
+            <FaInstagram size={20} />
           </a>
         </div>
       </div>

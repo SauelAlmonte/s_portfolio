@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="bg-[#001e38] p-2">
       <p className="text-[#d5d9e0] text-sm">
         A.M.P.L LLC &copy;{" "}
-        <time className="ml-1" datetime="2023">
+        <time className="ml-1 font-serif" datetime="2023">
           2023
         </time>
       </p>
