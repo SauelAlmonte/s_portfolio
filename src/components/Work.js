@@ -31,12 +31,16 @@ const Work = () => {
                 ReactJS Application
               </span>
               <div className="flex justify-center">
-                <a href="/">
+                <a
+                  href="https://tesla-landing-page-eight.vercel.app/#model3"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-800 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="/" target="_blank" rel="noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-800 font-bold text-lg">
                     Code
                   </button>
@@ -54,12 +58,16 @@ const Work = () => {
                 ReactJS Application
               </span>
               <div className="flex justify-center">
-                <a href="/">
+                <a
+                  href="https://acme-dusky.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-800 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="/" target="_blank" rel="noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-800 font-bold text-lg">
                     Code
                   </button>
@@ -77,12 +85,16 @@ const Work = () => {
                 ReactJS Application
               </span>
               <div className="flex justify-center">
-                <a href="/">
+                <a
+                  href="https://apple-site-ecru.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-800 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="/" target="_blank" rel="noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-800 font-bold text-lg">
                     Code
                   </button>
@@ -100,12 +112,16 @@ const Work = () => {
                 ReactJS Application
               </span>
               <div className="flex justify-center">
-                <a href="/">
+                <a
+                  href="https://movie-site-five.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-800 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="/" target="_blank" rel="noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-800 font-bold text-lg">
                     Code
                   </button>
@@ -123,12 +139,16 @@ const Work = () => {
                 ReactJS Application
               </span>
               <div className="flex justify-center">
-                <a href="/">
+                <a
+                  href="https://netflix-redo.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-800 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="/" target="_blank" rel="noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-800 font-bold text-lg">
                     Code
                   </button>
@@ -146,12 +166,16 @@ const Work = () => {
                 ReactJS Application
               </span>
               <div className="flex justify-center">
-                <a href="/">
+                <a
+                  href="https://rr-6-quick-app-react.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-800 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="/" target="_blank" rel="noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-800 font-bold text-lg">
                     Code
                   </button>
