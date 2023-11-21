@@ -7,7 +7,7 @@ const About = () => {
 				<div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
 					<div className="sm:text-right pb-8 pl-4">
 						<p className="text-4xl font-bold inline border-b-4 pb-1.5 text-[#001e38] border-[#001e38]">
-							About hello
+							About
 						</p>
 					</div>
 					<div></div>
