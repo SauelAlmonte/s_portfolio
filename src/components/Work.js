@@ -26,7 +26,7 @@ const Work = () => {
 						{/* Hover Effect */}
 						<div className="opacity-0 group-hover:opacity-100 ">
 							<span className="text-2xl font-bold text-white tracking-wider">
-								ReactJS Application
+								HTML5/TailwindCSS <br /> Web Page
 							</span>
 							<div className="flex justify-center">
 								<a
@@ -38,7 +38,11 @@ const Work = () => {
 										Demo
 									</button>
 								</a>
-								<a href="/" target="_blank" rel="noreferrer">
+								<a
+									href="https://github.com/SauelAlmonte/tesla_landing_page"
+									target="_blank"
+									rel="noreferrer"
+								>
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-800 font-bold text-lg">
 										Code
 									</button>
@@ -53,7 +57,7 @@ const Work = () => {
 						{/* Hover Effect */}
 						<div className="opacity-0 group-hover:opacity-100 ">
 							<span className="text-2xl font-bold text-white tracking-wider">
-								ReactJS Application
+								HTML5/TailwindCSS/ <br /> JavaScript <br /> Web Page
 							</span>
 							<div className="flex justify-center">
 								<a
@@ -65,7 +69,11 @@ const Work = () => {
 										Demo
 									</button>
 								</a>
-								<a href="/" target="_blank" rel="noreferrer">
+								<a
+									href="https://github.com/SauelAlmonte/acme_rockets"
+									target="_blank"
+									rel="noreferrer"
+								>
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-800 font-bold text-lg">
 										Code
 									</button>
@@ -80,7 +88,7 @@ const Work = () => {
 						{/* Hover Effect */}
 						<div className="opacity-0 group-hover:opacity-100 ">
 							<span className="text-2xl font-bold text-white tracking-wider">
-								ReactJS Application
+								HTML5/CSS Web Page
 							</span>
 							<div className="flex justify-center">
 								<a
@@ -92,7 +100,11 @@ const Work = () => {
 										Demo
 									</button>
 								</a>
-								<a href="/" target="_blank" rel="noreferrer">
+								<a
+									href="https://github.com/SauelAlmonte/apple-site"
+									target="_blank"
+									rel="noreferrer"
+								>
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-800 font-bold text-lg">
 										Code
 									</button>
@@ -107,7 +119,7 @@ const Work = () => {
 						{/* Hover Effect */}
 						<div className="opacity-0 group-hover:opacity-100 ">
 							<span className="text-2xl font-bold text-white tracking-wider">
-								ReactJS Application
+								ReactJS Web Page
 							</span>
 							<div className="flex justify-center">
 								<a
@@ -119,7 +131,11 @@ const Work = () => {
 										Demo
 									</button>
 								</a>
-								<a href="/" target="_blank" rel="noreferrer">
+								<a
+									href="https://github.com/SauelAlmonte/movie-site/tree/main"
+									target="_blank"
+									rel="noreferrer"
+								>
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-800 font-bold text-lg">
 										Code
 									</button>
@@ -134,7 +150,7 @@ const Work = () => {
 						{/* Hover Effect */}
 						<div className="opacity-0 group-hover:opacity-100 ">
 							<span className="text-2xl font-bold text-white tracking-wider">
-								ReactJS Application
+								ReactJS Web Page
 							</span>
 							<div className="flex justify-center">
 								<a
@@ -146,7 +162,11 @@ const Work = () => {
 										Demo
 									</button>
 								</a>
-								<a href="/" target="_blank" rel="noreferrer">
+								<a
+									href="https://github.com/SauelAlmonte/netflix_redo"
+									target="_blank"
+									rel="noreferrer"
+								>
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-800 font-bold text-lg">
 										Code
 									</button>
