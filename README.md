@@ -9,11 +9,6 @@ experience.
 
 - **React.js**: A JavaScript library for building user interfaces.
 - **TailwindCSS**: A utility-first CSS framework for rapid UI development.
-- **JavaScript**: The primary programming language used for interactivity.
-- **HTML**: The standard markup language for creating web pages.
-- **CSS**: The stylesheet language used for describing the presentation of the
-  document.
-- **Git**: Version control system for tracking changes in source code.
 
 ## Features
 
