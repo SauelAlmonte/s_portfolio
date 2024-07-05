@@ -4,7 +4,6 @@ Welcome to my portfolio! This project showcases my skills, projects, and
 experiences as a developer. The portfolio is built using modern web development
 technologies and design principles to ensure a responsive and visually appealing
 experience.
--------------
 
 ## Technologies Used
 
