@@ -4,20 +4,7 @@ Welcome to my portfolio! This project showcases my skills, projects, and
 experiences as a developer. The portfolio is built using modern web development
 technologies and design principles to ensure a responsive and visually appealing
 experience.
-
-## Table of Contents
-- [My Portfolio](#my-portfolio)
-  - [Table of Contents](#table-of-contents)
-  - [About](#about)
-  - [Technologies Used](#technologies-used)
-  - [Features](#features)
-
-## About
-
-This portfolio is a personal project that highlights my journey and achievements
-in the field of web development. It includes sections such as Home, About,
-Skills, Work, Contact, and a special Under Construction page for ongoing
-updates.
+-------------
 
 ## Technologies Used
 
